@@ -31,7 +31,7 @@ public class LoginController extends HttpServlet {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		RequestDispatcher rd = null;
-		if(username.equalsIgnoreCase("bishal") && password.equals("bishaalhi")) {
+		if(username.equalsIgnoreCase("Kadhir") && password.equals("kadhir123")) {
 			rd = request.getRequestDispatcher("/Director.html");
 			
 			rd.forward(request, response);
