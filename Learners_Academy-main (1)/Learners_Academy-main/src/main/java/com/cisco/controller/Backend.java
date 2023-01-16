@@ -89,19 +89,19 @@ public class Backend extends HttpServlet {
 		}
 		else if(teachers.getTeacher_id()==2)
 		{
-		tname="Reena";
+		tname="Regina";
 		}
 		else if(teachers.getTeacher_id()==3)
 		{
-		tname="Siddhant";
+		tname="Sridhar";
 		}
 		else if(teachers.getTeacher_id()==4)
 		{
-		tname="Lata";
+		tname="Sowmya";
 		}
 		else if(teachers.getTeacher_id()==5)
 		{
-		tname="Umesh";
+		tname="Uma";
 		}
 		teachers.setTeacher_name(tname);	
 		
